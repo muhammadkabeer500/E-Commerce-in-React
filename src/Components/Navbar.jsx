@@ -13,8 +13,8 @@ const isLoggedIn = false;
     <div className='flex justify-between shadow-md border-black px-[3%] max-w-[1100] bg-[#fbfaf4] h-16 '>
       {/* for Mobile */}
         <div className='flex items-center sm'>
-        <img src={logo} className='  h-12' alt="loog" />
-        <h1 className='  text-2xl lg:block box-content cursor-pointer items-center flex font-semibold'>  Qadir</h1>
+        {/* <img src={logo} className='  h-12' alt="loog" /> */}
+        <h1 className='  text-2xl lg:block box-content cursor-pointer items-center flex font-semibold'>  Kabeer</h1>
           </div>     
         <ul className='flex items-center gap-8'>
             <li className='cursor-pointer'><Link to={"/"}>Home</Link>  </li>
@@ -25,7 +25,7 @@ const isLoggedIn = false;
         </ul>
     <div className="items-center flex gap-12 ">
         <div className='flex h-9'>
-        <input type="text" placeholder='Search Products' className='p-1 pl-6 bg-[#F2EED7] border-solid rounded-s-xl'  />
+        <input type="text" placeholder='Search ' className='p-1 pl-6 bg-[#F2EED7] border-solid rounded-s-xl'  />
         <CiSearch style={{borderLeft: "1px solid black" }} className='cursor-pointer bg-[#F2EED7] h-9 w-10  p-2 rounded-e-xl border-solid focus:border:black text-2xl'/>
         </div>
         <div className='flex text-2xl gap-5'>

@@ -3,9 +3,10 @@ import Button from "./Button"
 
 function ProductSlider() {
   return (
-    <div>
-      <Button text="Today's"/>
-    </div>
+    // <div>
+    //   <Button text="Today's"/>
+    // </div>
+    <div></div>
   )
 }
 
