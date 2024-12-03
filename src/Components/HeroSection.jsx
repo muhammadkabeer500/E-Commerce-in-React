@@ -1,12 +1,6 @@
-import { useRef, useEffect } from 'react';
-import { register } from 'swiper/element/bundle';
-import 'swiper/css';
-import laptop from "../assets/laptop.jpg";
-import iphone from "../assets/iphone.jpg";
-import headphone from "../assets/headphone.jpg";
 
-// Register Swiper
-// register();
+
+
 
 export const ImageSlider = () => {
 
