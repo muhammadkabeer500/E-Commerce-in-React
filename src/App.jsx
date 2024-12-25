@@ -6,19 +6,19 @@ import Login from "./pages/Login";
 import { Routes, Route, Outlet, Link, Navigate } from "react-router-dom";
 import Footer from "./components/Footer";
 import Products from "./pages/Products";
-  import ProductDetail from "./pages/ProductDetail";
-
+import ProductDetail from "./pages/ProductDetail";
+// import Hero from "./components/Herosection"
 // 404 routes not found after hosting
 // UI responsive
 
 function App() {
-  const isLoggedIn = false;
+  const isLoggedIn = true;
 
   return (
     <>
       <Banner />
       <Navbar />
-
+      {/* <Hero/> */}
       <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="/about" element={<About />} />
